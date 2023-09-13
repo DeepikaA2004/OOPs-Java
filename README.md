@@ -1,7 +1,7 @@
 # OOPs-Java
 ## PROBLEM STATEMENTS
 
-1) From the following details generate a report showing the cash position at the end of a month for Aman
+1)From the following details generate a report showing the cash position at the end of a month for Aman
 a) royalty received = rs 12000 ,
 b) machinery maintenance = rs 4000 ,
 c) sales commission = rs 3000 ,
@@ -25,7 +25,7 @@ Automate his account balance through a programming code using Java.
 
 
 
-3) Mr. B and Mr. U are friends who have their residences at opposite lanes with doors
+3)Mr. B and Mr. U are friends who have their residences at opposite lanes with doors
 no 10 and 20 respectively. During a rainy, they missed their lanes and U reaches B's
 home and B reached U's home. They want to find their perfect ways. kindly guide them
 with a programming code using java.
