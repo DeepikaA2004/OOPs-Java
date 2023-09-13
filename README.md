@@ -1,2 +1,2 @@
-# OOPs-Java-
+# OOPs-Java
 PROBLEM STATEMENT
