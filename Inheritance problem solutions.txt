@@ -1,0 +1,47 @@
+        INHERITANCE
+1)
+class Vechicle{
+    void start(){
+        System.out.println("Vechicle startes");
+    }
+    void stop(){
+        System.out.println("vechile stopped");
+    }
+}
+class Car extends Vechicle{
+    void accelerate(){
+        System.out.println("Car accelerating");
+    }
+}
+public class Main{
+    public static void main(String[]args){
+        Car myCar = new Car();
+        myCar.start();
+        myCar.stop();
+        myCar.accelerate();
+    }
+}
+
+2)
+class Bank {
+    void withdrawal() {
+        System.out.println("Amount is withdrawn");
+    }
+
+    void deposit() {
+        System.out.println("Amount is deposited");
+    }
+
+    void fundtransfer() {
+        System.out.println("Amount is transferred successfully");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Bank myBank = new Bank();
+        myBank.withdrawal();
+        myBank.deposit();
+        myBank.fundtransfer();
+    }
+}

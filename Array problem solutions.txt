@@ -1,0 +1,78 @@
+  ARRAYS
+1)
+public class MyClass {
+    public static void main(String[] args) {
+        String sub[] = {"English", "Physics"};
+        System.out.println(sub[0]);
+    }
+}
+public class MyClass {
+    public static void main(String[] args) {
+        String[] color = {"violet","blue","orange","maroon"};
+        System.out.prinln(color.length);
+    }
+}
+
+public class MyClass {
+    public static void main(String[] args) {
+       int arr[]={1,2,3,4,5};
+       for(int i=0;i<arr.length-2;i++)
+        System.out.println(arr[i]+"");  // arr[i]--> every individual elements in an array
+    }
+}
+ output:1,2,3
+
+2)
+
+2 DIMENSIONAL ARRAY(ROWS AND COLUMNS)
+
+public class MyClass {
+    public static void main(String[] args) {
+       int[][] twod = {{1,2,3,4},{5,6,7}};
+       System.out.println(twod[0][3]);
+       
+    }
+}
+
+OUTPUT:4
+
+3) m/s ford wants to analyze the sales data for 6 months which is as follows the units of measurement in lakhs [50,30,40,60,10,20] write a program in java to print the sales value in the last quarter
+
+CODE:
+public class SalesAnalysis {
+    public static void main(String[] args) {
+        // Sales data in lakhs for 6 months
+        double[] salesData = {50, 30, 40, 60, 10, 20};
+
+        // Calculate the sales value in the last quarter (last 3 months)
+        double lastQuarterSales = 0.0;
+        for (int i = 3; i < 6; i++) {
+            lastQuarterSales += salesData[i];
+        }
+
+        // Print the sales value in the last quarter
+        System.out.println("Sales value in the last quarter: " + lastQuarterSales + " lakhs");
+    }
+}
+OUTPUT:90 LAKHS
+
+
+
+
+4)ventura and co has a series of book publictions such as [shreyas, suhas,vikas ,plabyso] write a java program to find out the no of publications done.
+
+CODE:
+public class PublicationCount {
+    public static void main(String[] args) {
+        // Array representing the series of book publications
+        String[] publications = {"shreyas", "suhas", "vikas", "plabyso"};
+
+        // Calculate the number of publications
+        int numberOfPublications = publications.length;
+
+        // Print the number of publications
+        System.out.println("Number of publications done by Ventura and Co: " + numberOfPublications);
+    }
+}
+
+OUTPUT:4 

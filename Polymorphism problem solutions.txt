@@ -1,0 +1,23 @@
+abstract class Bank{ // abstract - keyword ;  abstraction is the process of hiding an implementation details
+    abstract int getInterestRate();// abstract method
+}
+class Citi extends Bank{ // BASE CLASS- BANK AND DERIVED CLASS - CITI AND HSBC polymorphism
+    int getInterestRate()
+    {
+        return 7;  // extends - inheritance and
+    }
+}
+class HSBC extends Bank{ //----->abstract class bank reefined to hsbc
+    int getInterestRate(){  -----> concrete method redefined ; if we not redefined it leads to abstract method
+        return 6;
+    }
+}
+class Main{
+    public static void main(String [] args){
+        Bank b; //---->creating an object b from class bank
+        b=new Citi(); //----->creating a new object for citi class
+        System.out.println("Citi Rate of Interest is: "+b.getInterestRate()+"%");
+        b=new HSBC(); //----> creating a new objct for hsbc class
+        System.out.println("HSBC Rate of Interest is:" +b.getInterestRate()+"%");
+    }
+}

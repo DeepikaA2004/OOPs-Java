@@ -1,0 +1,57 @@
+
+
+           ENCAPSULATION 
+1)
+
+class Car {
+    String color;
+    int speed;
+
+    void start() {
+        System.out.println("Car started");
+    }
+
+    void stop() {
+        System.out.println("Car stopped");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car(); // new is reserved word that creates memory for the object dynamically
+        myCar.color = "red";
+        myCar.speed = 60;
+        System.out.println("My car color is " + myCar.color);
+        System.out.println("My car speed is " + myCar.speed);
+        myCar.start();
+        myCar.stop();
+    }
+}
+
+
+
+2)
+class Magazine {
+    String name;
+    int rate;
+
+    void buy() {
+        System.out.println("Magazine buy on 21/05/2023");
+    }
+
+    void sell() {
+        System.out.println("Magazine sell on 13/09/2023");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Magazine myMagazine = new Magazine();
+        myMagazine.name = "gravitation on moon";
+        myMagazine.rate = 200;
+        System.out.println("My Magazine name is " + myMagazine.name);
+        System.out.println("My Magazine rate is " + myMagazine.rate);
+        myMagazine.buy();
+        myMagazine.sell();
+    }
+}
