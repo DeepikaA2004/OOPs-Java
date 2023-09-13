@@ -1,6 +1,7 @@
 # OOPs-Java
 ## PROBLEM STATEMENTS
-1) From the following details generate a report showing the cash position at the end of a month for Aman
+<hr
+**1) From the following details generate a report showing the cash position at the end of a month for Aman**
 a) royalty received = rs 12000 ,
 b) machinery maintenance = rs 4000 ,
 c) sales commission = rs 3000 ,
@@ -10,8 +11,8 @@ f) property tax = rs 2000 ,
 g) bonus = rs 8000 ,
 h) gratuity = rs 5000 .
 Find out whether Aman has a surplus amount or a deficit amount.
-
-2)Mr.M of Ajarbaijan wants to automate his bank details with opening. Account balance of rs 2,00,000
+>
+**2)Mr.M of Ajarbaijan wants to automate his bank details with opening. Account balance of rs 2,00,000**
 a)Deposit= rs 1,00,000
 b)funds transfer to s = rs 25,000
 c)loan taken from bank @repaid = rs 10,000
