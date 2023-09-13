@@ -59,6 +59,9 @@ b)If the storing cost is increased by 10% what will be the cost?
 
 
 
+
+
+
 Hint- formula for calculating the optimum quantity
 optimum quantity= overall square root (2*annual production*making cost/storing cost)
 
